@@ -1,0 +1,37 @@
+body{
+    background-color: #FBFADA;
+}
+
+/* Mdb Bootstrap */
+
+
+.green-lumut{
+    color: #12372a;
+}
+.bg-green-lumut{
+    background-color: #12372a;
+}
+
+.green-lumut-2{
+    color: #436850;
+}
+.green-lumut-3{
+    color: #ADBC9F;
+}
+
+.mt-10{
+    margin-top: 200px;
+}
+
+.nav-link:hover{
+    color: #FBFBFB !important;
+}
+
+.dropdown-item:hover{
+    background-color: #12372a !important;
+    color:#FBFBFB !important;
+}
+
+.text-sm{
+    font-size: 10px;
+}
