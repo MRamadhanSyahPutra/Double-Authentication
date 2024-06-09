@@ -25,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
             return !Auth::guard('admin')->check();
         });
 
-         if (config('app.env') != 'local') {
+        if (config('app.env') != 'local') {
             \URL::forceScheme('https');
         };
     }
