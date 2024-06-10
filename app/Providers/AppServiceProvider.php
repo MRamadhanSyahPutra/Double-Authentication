@@ -23,6 +23,6 @@ class AppServiceProvider extends ServiceProvider
     {
         Blade::if('gAdmin', function () {
             return !Auth::guard('admin')->check();
-        });s
+        });
     }
 }
