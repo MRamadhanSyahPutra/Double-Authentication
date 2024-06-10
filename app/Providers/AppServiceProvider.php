@@ -24,8 +24,5 @@ class AppServiceProvider extends ServiceProvider
         Blade::if('gAdmin', function () {
             return !Auth::guard('admin')->check();
         });
-        if (config('app.env') != 'local') {
-            URL::forceScheme('https');
-        };
     }
 }
